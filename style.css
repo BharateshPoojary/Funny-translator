@@ -1,0 +1,7 @@
+.image{
+    background-image: url('image/yoda.jpg');
+    background-size: 100%;
+}
+.head{
+    font-size: 2rem;
+}
