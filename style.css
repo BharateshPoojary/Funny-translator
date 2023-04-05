@@ -6,3 +6,15 @@
     font-size: 2rem;
     color: aqua;
 }
+@media (min-aspect-ratio:16/9){
+    .image{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio:16/9){
+    .image{
+        width: auto;
+        height: 100%;
+    }
+}
