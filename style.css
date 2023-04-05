@@ -19,3 +19,11 @@
         height: 100%;
     }
 }
+.footer{
+    background-color: aqua;
+}
+.link{
+    color: black;
+    text-decoration: none;
+    text-align: "center";
+}

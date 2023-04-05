@@ -12,10 +12,7 @@ translate.addEventListener("click",function fun(){
     })
     .then(function out(op){
          s2.value = op.contents.translated
-
     })
-    .catch{
-        alert("Make sure you are connected to the internet")
-    }
+    .catch(()=>{alert("internet Is off")});
 })
  
