@@ -14,5 +14,8 @@ translate.addEventListener("click",function fun(){
          s2.value = op.contents.translated
 
     })
+    .catch{
+        alert("Make sure you are connected to the internet")
+    }
 })
  
