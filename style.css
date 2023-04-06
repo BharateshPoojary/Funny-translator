@@ -7,13 +7,13 @@
     font-size: 2rem;
     color: aqua;
 }
-@media (min-aspect-ratio:16/9){
+@media screen and (max-width:700px){
     .image{
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 }
-@media (max-aspect-ratio:16/9){
+/* @media (max-aspect-ratio:16/9){
     .image{
         width: auto;
         height: 100%;
@@ -25,5 +25,5 @@
 .link{
     color: black;
     text-decoration: none;
-    text-align: "center";
-}
+    text-align: center;
+} */ */
