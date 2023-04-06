@@ -5,7 +5,8 @@
 }
 .head{
     font-size: 2rem;
-    color: aqua;
+    background-color: rgb(226 232 240);
+    border-radius: 3px;
 }
 @media screen and (max-width:700px){
     .image{
@@ -13,17 +14,15 @@
         height: 100%;
     }
 }
-/* @media (max-aspect-ratio:16/9){
-    .image{
-        width: auto;
-        height: 100%;
-    }
+.ulist{
+    display: flex;
+    list-style: none;
+    padding: 0px 6.6rem;
 }
+.div{
+    padding: 0rem 8rem;
+} 
 .footer{
-    background-color: aqua;
+    background-color: rgb(226 232 240);
+    
 }
-.link{
-    color: black;
-    text-decoration: none;
-    text-align: center;
-} */ */
