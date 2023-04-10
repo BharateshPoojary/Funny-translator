@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-.image{
+.body{
+    width: 100%;
+    height: 500px;
     background-image: url('image/yoda.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
 }
 .head{
@@ -10,6 +13,17 @@
     background-color: rgb(226 232 240);
     border-top-right-radius: 1rem;
     text-align: center;
+    margin: auto;
+}
+.s1{
+ display: block;
+}
+.div{
+    text-align: center;
+    margin: auto;
+    position: fixed;
+    display: flex;
+    display: grid;
 }
 .ulist{
     display: flex;
@@ -17,22 +31,26 @@
     padding: 0px 6.6rem;
     text-align: center;
 }
-.div{
+.div2{
     padding: 0rem 8rem;
     text-align: center;
+    margin: auto;
 } 
 .footer{
     background-color: rgb(226 232 240);
     border-bottom-left-radius: 1rem;
     text-align: center; 
+    
 }
 .list{
     padding-right: 4rem;
     text-align: center;
+    margin: auto;
     
 }
 .h1{
     text-align: center;
+    margin: auto;
 }
 .link{
     color: black;
