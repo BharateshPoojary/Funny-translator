@@ -25,22 +25,20 @@
 .translate{
     margin-top: 2rem;
 }
-
-.ulist{
-    display: flex;
-    list-style: none;
-}
 .footer{
     background-color: rgb(226 232 240);
     border-bottom-left-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
+}
+.ulist{
+    display: flex;
+    list-style: none;
 }
 .list{
-    padding-right: 2.3rem;
+    padding-right: 2.8rem;
 }
 .link{
     color: black;
