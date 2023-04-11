@@ -13,7 +13,6 @@
     margin: auto;
 }
 .container{
-    
     background-image: url('image/yoda.jpg');
     background-size: cover;
     background-position:center;
@@ -23,33 +22,25 @@
     align-items: center;
     padding-bottom: 300px;
 }
+.translate{
+    margin-top: 2rem;
+}
 
 .ulist{
     display: flex;
     list-style: none;
-    padding: 0px 6.6rem;
-    text-align: center;
 }
-.div{
-    padding: 0rem 8rem;
-    text-align: center;
-    /* margin: auto; */
-} 
 .footer{
     background-color: rgb(226 232 240);
     border-bottom-left-radius: 1rem;
-    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 .list{
     padding-right: 2.3rem;
-    text-align: center;
-    margin: auto;
-    
-}
-.h1{
-    text-align: center;
-    margin: auto;
 }
 .link{
     color: black;
