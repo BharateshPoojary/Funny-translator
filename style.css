@@ -23,6 +23,9 @@
 .translate{
     margin-top: 2rem;
 }
+.translate:hover{
+    color: blue;
+}
 .footer{
     background-color: rgb(226 232 240);
     border-bottom-left-radius: 1rem;
