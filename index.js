@@ -1,18 +1,17 @@
-var s1 = document.querySelector(".s1")
-var s2 = document.querySelector(".s2")
-var translate = document.querySelector(".translate")
-var url = "https://api.funtranslations.com/translate/yoda.json?text="
-
-translate.addEventListener("click",function fun(){
-    var input =s1.value
-    var finalurl = url+input
-    fetch(finalurl)//return  promise
-    .then(function print(pr){
-        return pr.json();
+let s1 = document.querySelector(".s1")
+let s2 = document.querySelector(".s2")
+let translate = document.querySelector(".translate")
+const url = "https://api.funtranslations.com/translate/yoda.json?text="
+translate.addEventListener("click",async () => {
+    try{
+            let input =s1.value
+            let finalurl = url+input
+            let object = await(await fetch(finalurl)).json();
+            s2.value = await(object.contents.translated);
+        }
+    catch{
+            alert("Internet is off");
+         }
     })
-    .then(function out(op){
-         s2.value = op.contents.translated
-    })
-    .catch(()=>{alert("internet Is off")});
-})
+    
  
